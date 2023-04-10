@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import '../src/card.css';
+import Cardhover from './Card'
+import '../src/app.css';
+import backview from '../src/backview.mp4';
+function CardView() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className='container1'>
+      {<video className='video1' autoPlay loop muted>
+         <source src={backview} type='video/mp4' />
+      </video>}
+      <Cardhover />
     </div>
-  );
+  
+  )
 }
 
-export default App;
+export default CardView;

@@ -1,0 +1,168 @@
+.card {
+    width: 500px;
+    height: 315px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    color: #fff;
+    border-radius: 30px;
+    transition: all .4s ease;
+
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+
+}
+
+.container .card:hover {
+    transform: scale(1.1);
+}
+
+.container .card .top img {
+    border-radius: 80px;
+    padding: 2px 6px;
+    margin: 17px 18px;
+}
+
+.container .card .top .logo {
+    position: absolute;
+    top: 224px;
+    margin-left: 238px;
+    height: 60px;
+
+}
+
+.container .card .top {
+    background: rgb(0 0 0 / 9%);
+    height: 80px;
+    position: relative;
+
+}
+
+.container .card .top span {
+    color: coral;
+}
+
+.container .card .top .heading {
+    float: right;
+    margin: 0px 24px;
+
+}
+
+.container .card .top .contact {
+    float: right;
+    display: flex;
+    margin: -127px 33px;
+}
+
+.container .card .top .heading span {
+    color: coral;
+}
+
+.container .card .top .name {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    position: absolute;
+    top: 70px;
+
+}
+
+.container .card .top .name .employee {
+    display: flex;
+}
+
+.container .card .mid {
+    display: grid;
+    margin-top: 80px;
+
+}
+
+.container .card .mid .box {
+    width: 50px;
+    height: 40px;
+    grid-row-start: none;
+    margin: 9px 38px;
+    justify-content: space-between;
+
+}
+
+.container .card .mid .box span {
+    color: coral;
+}
+
+.container .card .box span {
+    color: coral;
+}
+
+.container .card .down .box {
+    margin-left: 17px;
+    margin-top: 19px;
+}
+
+@media screen and (max-width:526px) {
+   .container .card {
+        width: 337px;
+        height: 253px;
+    }
+    .container .card .top .heading {
+        display: flex;
+        position: absolute;
+        bottom: 38px;
+        left: 183px;
+        font-size: 24px;
+}
+.container .card .top .contact {
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    left: 176px;
+    top: 172px;
+}
+
+.container .card .top img {
+    height: 103px;
+}
+.container .card .top .name {
+    display: flex;
+    align-items: center;
+    margin-left: 134px;
+    position: absolute;
+    top: 76px;
+    font-size: 12px;
+}
+.container .card .mid {
+    display: flex;
+    margin-top: 54px;
+}
+.container .card .mid .box {
+    width: 9px;
+    height: 45px;
+    margin: 6px 39px;
+}
+.container .card .mid .box {
+    width: 1px;
+    height: 45px;
+    margin: 7px 39px;
+}
+.container .card .mid .box span {
+    color: coral;
+    font-size: 10px;
+    display: flex;
+}
+.container .card .top .logo {
+    position: absolute;
+    top: 190px;
+    margin-left: 130px;
+    height: 35px;
+}
+}
+
