@@ -1,7 +1,6 @@
 import '../src/card.css';
 import Cardhover from './Card'
-import '../src/app.css';
-// import backview from '../src/backview.mp4';
+import './App.css';
 import tunnel from '../src/tunnel.mp4'
 function CardView() {
   return (

@@ -11,9 +11,6 @@ function Cardhover() {
         const response = await fetch("https://randomuser.me/api/", {
             method: 'GET'
         })
-        // const response = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=INR&order=market_cap_desc&per_page=100&page=1&sparkline=false" , {
-        //   method:'GET'
-        // })
         const user = await response.json()
         console.log(user.results);
         setData(user.results[0])
@@ -39,9 +36,9 @@ function Cardhover() {
                     </div>
                     <div className="mid">
                         <div className="box"> <h5>Gender <br /><span>{data.gender}</span></h5></div>
-                       <div className="line"><hr/></div> 
+                        <div className="line"><hr /></div>
                         <div className="box">  <h5>Age<br /><span>{data.dob.age}</span></h5></div>
-                       <div className="line2" ><hr/></div>
+                        <div className="line2" ><hr /></div>
                         <div className="box">  <h5>Address<br /><span>{data.location.city}/{data.location.country} {data.location.state}</span></h5></div>
                     </div>
                     <div className="down">
