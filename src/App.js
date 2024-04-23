@@ -1,7 +1,7 @@
-import '../src/card.css';
+import './card.css';
 import Cardhover from './Card'
 import './App.css';
-import tunnel from '../src/tunnel.mp4'
+import tunnel from './tunnel.mp4'
 function CardView() {
   return (
      <div className='container1'>
