@@ -41,7 +41,7 @@ Visit http://localhost:3000 in your web browser.
 /
 
 
-![test image](https://i.postimg.cc/8CsxTQQ7/Fire-Shot-Capture-033-Random-User-Profile-Viewer-localhost.png)
+![test image](https://ik.imagekit.io/sjuj0rpud/FireShot%20Capture%20033%20-%20Random%20User%20Profile%20Viewer%20-%20localhost.png?updatedAt=1714832593983)
 
-![test image](https://i.postimg.cc/nhxD8pm1/Fire-Shot-Capture-034-Random-User-Profile-Viewer-localhost.png)
+![test image](https://ik.imagekit.io/sjuj0rpud/FireShot%20Capture%20034%20-%20Random%20User%20Profile%20Viewer%20-%20localhost.png?updatedAt=1714832669515)
 
