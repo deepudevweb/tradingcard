@@ -16,6 +16,15 @@
 
 }
 
+.title-head {
+    color: "white";
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+
+}
+
 .container {
     justify-content: center;
     align-items: center;
@@ -24,13 +33,11 @@
     height: 100vh;
     width: 100vw;
     display: flex;
-
-
+    flex-direction: column;
 }
 
 .container .card:hover {
     transform: scale(1.1);
-
 }
 
 .container .card .top img {
@@ -138,6 +145,38 @@
     background-color: coral;
 }
 
+.fetch-btn {
+    padding: 7px 15px;
+    background-color: rgb(80, 83, 255);
+    border-radius: 5px;
+    border: none;
+    margin: 10px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.fetch-btn:hover {
+    transform: scale(1.1);
+    transition: all .4s ease;
+    background-color: coral;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-head {
+    font-size: 12px;
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+}
 
 @media screen and (max-width:526px) {
     .container .card {
@@ -223,4 +262,9 @@
         margin-left: 29px;
         margin-top: 28px;
     }
+
+    .title-head {
+        font-size: 24px;
+    }
+
 }
